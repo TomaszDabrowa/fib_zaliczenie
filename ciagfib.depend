@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1641599603 source:c:\users\natii\onedrive\pulpit\ciagfib\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1641825004 source:c:\users\tomasz\documents\programy\ciag_fibonacciego_2\fib_zaliczenie\main.c
+	<stdio.h>
+	<stdlib.h>
+
