@@ -5,6 +5,8 @@ double fib(int n)
 {
     double a = 1;
     double b = 1;
+    if(n==0)
+        a = 0;
     for (int i = 2; i < n; ++i)
     {
         double c = a + b;
