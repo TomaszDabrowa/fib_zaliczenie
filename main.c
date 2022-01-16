@@ -22,8 +22,6 @@ int main()
     int wybor;
     char s[4]; //liczba moze byc maks. trzycyfrowa, (dla wiekszych liczb nie ma sensu zwiekszac tabliczy bo traci sie dokladnosc w dalszych obliczeniach)
 
-    //&s[0] = s
-
     printf("1. Oblicz wyraz ciagu Fibonacciego dla liczby n \n");
     printf("2. Oblicz wyrazy ciagu Fibonacciego z pliku tekstowego \n");
     printf("Twoj wybor: ");
@@ -49,8 +47,7 @@ int main()
         while (fgets(s, 4, plik) != NULL)
         {
             int liczba = atoi(s); // funkcja pomija znaki biale i zwraca int
-            double f = fib(liczba);
-            printf("Fib[%d] = %.f\n", liczba, f);
+            printf("Fib[%d] = %.f\n", liczba, fib(liczba));
         }
 
         fclose(plik);
