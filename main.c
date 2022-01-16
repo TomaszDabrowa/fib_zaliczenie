@@ -31,7 +31,7 @@ int main()
     {
        printf("Wpisz dowolna liczbe naturalna, dla ktorej chcesz obliczyc wyraz ciagu Fibonacciego: ");
        scanf("%d", &n);
-       printf("Wyraz ciagu to: %.f", fib(n));
+       printf("Fib[%d] = %.f\n", n, fib(n));
 
     }
     if(wybor == 2)
