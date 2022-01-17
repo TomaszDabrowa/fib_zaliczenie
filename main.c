@@ -20,7 +20,7 @@ int main()
 {
     int n;
     int wybor;
-    char s[4]; //liczba moze byc maks. trzycyfrowa, (dla wiekszych liczb nie ma sensu zwiekszac tabliczy bo traci sie dokladnosc w dalszych obliczeniach)
+    char s[4];
 
     printf("1. Oblicz wyraz ciagu Fibonacciego dla liczby n \n");
     printf("2. Oblicz wyrazy ciagu Fibonacciego z pliku tekstowego \n");
